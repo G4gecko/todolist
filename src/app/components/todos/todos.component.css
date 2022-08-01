@@ -1,0 +1,30 @@
+.todo {
+    display: flex;
+    padding: 10px 15px;
+    background-color: white;
+    border-bottom: 1px solid #DDD;
+}
+
+.todo .content {
+    flex: 1 1 50%;
+}
+
+.todo-input {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    appearance: none;
+    border: none;
+    background-color: aquamarine;
+    margin-top: 15px;
+    font-size: 20px;
+    outline: none;
+}
+
+.todo.done .content {
+    text-decoration: line-through;
+}
+
+.todo .id {
+    flex: 1 1 50px;
+}
